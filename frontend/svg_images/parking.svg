@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="parking.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74029882"
+     inkscape:cx="396.46153"
+     inkscape:cy="560.58444"
+     inkscape:window-width="1542"
+     inkscape:window-height="1041"
+     inkscape:window-x="2176"
+     inkscape:window-y="73"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g17" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g17"
+       transform="matrix(0.26458333,0,0,0.26458333,68.599579,85.040013)">
+      <rect
+         style="fill:#0063b3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-opacity:1;stroke-width:7.55905522;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rectSfondo"
+         width="399.99875"
+         height="400"
+         x="0"
+         y="0"
+         rx="50"
+         ry="50"
+         inkscape:export-filename="C:\xampp\htdocs\infografiche\imgs\rectSfondo.png"
+         inkscape:export-xdpi="105.181"
+         inkscape:export-ydpi="105.181" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:bold;font-size:400px;line-height:0%;font-family:Arial;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.55905522;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         x="61"
+         y="343"
+         id="textP"
+         inkscape:export-filename="C:\xampp\htdocs\infografiche\imgs\rectSfondo.png"
+         inkscape:export-xdpi="105.181"
+         inkscape:export-ydpi="105.181">P</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- VER 0.0.1 -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./imgs/i.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Infografiche Open Data</title>
+    <link rel="stylesheet" href="./css/introjs.min.css">
+  </head>
+  <body data-intro='Questo sito è stato creato per la visualizzaione'>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-light"  >
+
+      <div class="container-fluid">
+        <img src="./imgs/header/avatar.png" id="avatarImg" alt="">
+        <a class="navbar-brand" href="#" style="font-size: large;"><h1 data-intro='Benvenuto nel sito! Il progetto riguarda la creazione di infografiche a partire dai dati pubblicati dai comuni partecipanti al progetto Avatar.'>Progetto Avatar - Infografiche</h1></a>
+
+        <img class = "por img-fluid hidden-xs" src="./imgs/header/por_regione_veneto.png" alt="">
+
+      </div>
+
+
+
+
+    </nav>
+    <div class = "text-center mt-1 mb-1">
+      <img class="headerSvg img-fluid"src="./imgs/header/comuni_partecipanti.png" alt="">
+    </div>
+
+
+
+
+    <!-- MAIN CONTENT -->
+    <div class="container border border-dark p-0 rounded border-5 my-3" >
+
+      <div class="tour">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+        Guida utilizzo del sito
+      </div>
+      <div class ="row align-items-center">
+
+      </div>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item col-6" role="presentation">
+        <button class="nav-link active col-12" id="btn-aggr" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="Dati aggregati" aria-selected="true" data-intro='Cliccando qui invece potrai ottenere le infografiche dei dati aggregati dei comuni.'>Dati aggregati</button>
+      </li>
+      <li class="nav-item col-6" role="presentation">
+        <button class="nav-link col-12" id="btn-singolo" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="Dati per comune" aria-selected="false" data-intro='Cliccando qui potrai trovare le infografiche di un determinato comune. Potrai sceglierlo cliccando nel campo seleziona comune.'>Dati per comune</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="tab-contenuto" role="tabpanel" aria-labelledby="home-tab">...</div>
+    </div>
+
+  </div>
+
+    <!-- FOOTER -->
+  <footer class="text-center text-lg-start">
+    <div class="text-center p-3">
+      <a class="text-dark" href="https://www.avatarlab.it/il-progetto/">Progetto finanziato dal Programma Operativo POR FESR 2014-2020 Asse 2 “Agenda digitale”</a>
+    </div>
+  </footer>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="js/ext-script.js"></script>
+   <script src="./js/intro.min.js" charset="utf-8"></script>
+  </body>
+</html>
